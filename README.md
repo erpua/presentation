@@ -60,5 +60,14 @@ export default defineConfig({
 - npm install @radix-ui/react-toast
 - npm install class-variance-authority
 - npm install clsx
-
 - npm run dev
+
+# Create and add to GitHub ( https://www.google.com/search?q=how+to+create+git+in+project+and+push+to+github&rlz=1C1OZZY_enMX1133MX1133&oq=how+to+create+git+in+project+and+push+&gs_lcrp=EgZjaHJvbWUqBwgCECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRifBTIHCAUQIRiPAjIHCAYQIRiPAtIBCTEzNjM3ajBqN6gCCLACAfEF6JCLjyT6WKjxBeiQi48k-lio&sourceid=chrome&ie=UTF-8 )
+- git init
+- git add .
+- git commit -m "Initial project commit"
+- Create a new repository on GitHub.com (do not initialize it with a README, license, or .gitignore file, as this can cause merge conflicts later).
+- Copy the remote repository URL from GitHub's "Quick Setup" page (either HTTPS or SSH, depending on your setup).- 
+- Link your local repository to the remote GitHub repository (replace <REMOTE_URL> with the URL you copied):
+git remote add origin <REMOTE_URL> => git remote add origin https://github.com/erpua/presentation.git
+- git push -u origin master
